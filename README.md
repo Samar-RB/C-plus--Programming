@@ -1,16 +1,34 @@
-# Card Game Project – Generic ADT in C++
+# Turn-Based Card Game – Generic ADT in C++
 
 ## Overview
+This project is a turn-based card game developed in C++.  
+The player selects a character and battles enemies using strategic card sets, each affecting damage, healing, and defense.
 
-In this homework, I implemented a **turn-based card battle game** using **generic ADTs** in C++. This project builds on the skills I learned in previous exercises, focusing on **data structures**, **polymorphism**, and **efficient memory management**.  
+## Features
+- Turn-based gameplay
+- Multiple characters and enemies
+- Card set validation and effects
+- Health, damage, and healing mechanics
+- Object-Oriented Design (OOP)
+- Polymorphism-based game logic
 
-The main tasks I completed include:
+## Technologies
+- C++
+- OOP (classes, inheritance, polymorphism)
+- STL (string, containers)
 
-- Creating **generic linked lists and max heaps** to manage cards and game data.
-- Implementing a **card battle system** where I control a character and fight computer-controlled enemies.
-- Handling **card sets** according to the rules, including special effects based on suits like Diamonds, Hearts, and Clubs/Spades.
-- Calculating **damage, healing, and special interactions** between characters and enemies, including suit-specific powers.
-- Ensuring proper **memory management**, with clean allocation and deallocation of game resources.
-- Following the specified **input/output format** to allow automatic and manual testing of the game.
+## Key Concepts
+- Game logic design
+- Polymorphism (no type-checking in main logic)
+- Clean modular structure
 
-This project helped me practice combining **data structures** with **game logic** and reinforced the importance of designing **modular, reusable code**. 
+## Project Structure
+- Game logic (turn system)
+- Characters & enemies
+- Card & deck system
+
+## Purpose
+Demonstrates:
+- Strong OOP skills
+- Polymorphic design
+- Complex logic implementation. 
